@@ -1,5 +1,5 @@
 class SA{
- pubilc static void main(String[] args)
+ public static void main(String[] args)
 {
 	int s=0;
 	int a=0;
