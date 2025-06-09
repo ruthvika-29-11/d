@@ -1,0 +1,32 @@
+<html>
+<head>
+<style>
+	.st{
+color : blue;
+text-align : center;
+background-color : pink;
+}
+</style>
+<script>
+	function val(){
+	var e = document.f1.t1.value;
+	var p = document.f1.t2.value;
+	if( e == "mvsr" && p == "mvsr" )
+	{
+	alert("s");	
+}
+	else{ alert("f");}
+}
+</script>
+
+</head>
+<body>
+<div class="st">
+<form name= "f1">
+  E e:<input type="text" name="t1" ><br>
+  E p:<input type="password" name="t2" ><br>
+<input type="button" value="Login" onclick=val() >
+</form>
+</div>
+</body>
+</html>
